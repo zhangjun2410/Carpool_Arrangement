@@ -25,7 +25,7 @@ $section="Sign Up";
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Manage Carppool Arrangements</title>
+        <title>Manage Carpool Arrangements</title>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script language="javascript">
@@ -176,7 +176,7 @@ $section="Sign Up";
 					<input type="hidden" id="latitude" name="latitude" value=""/>
                         <input type="hidden" id="longitude" name="longitude" value=""/>
 						<p><button class="btn btn-lg btn-primary" type="submit">
-                submit</button><button class="btn btn-lg btn-primary" type="submit">
+                submit</button><button class="btn btn-lg btn-primary" type="reset">
                 reset</button></p>
 					</div>
                 </div><!--col-lg-->
@@ -215,7 +215,6 @@ $section="Sign Up";
     } );
    }
    $("#form").submit(function(e){
-	   //alert('govi');exit;
        e.preventDefault();
        geocoding($('#address').val());
    });

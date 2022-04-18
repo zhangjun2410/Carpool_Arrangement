@@ -3,9 +3,9 @@
 // connect to database
 
 $servername = "localhost";
-$username = "qfzwrbbk_carpool";
-$password = "carpool@123";
-$dbname = "qfzwrbbk_car_pool";
+$username = "root";
+$password = "";
+$dbname = "car_pool";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
